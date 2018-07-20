@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-calc",
+  "version": "1.0.0",
+  "description": "Simple babel plugin demo for calculation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZYSzys/babel-plugin-calc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZYSzys/babel-plugin-calc/issues"
+  },
+  "homepage": "https://github.com/ZYSzys/babel-plugin-calc#readme",
+  "devDependencies": {
+    "ava": "0.25.0",
+    "babel-core": "6.26.3",
+    "babel-types": "6.26.0"
+  }
+}
