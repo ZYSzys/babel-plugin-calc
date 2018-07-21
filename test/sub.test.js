@@ -3,13 +3,13 @@ import test from 'ava'
 import { transform } from 'babel-core'
 import calcPlugin from '../index'
 
-test('add', t => {
-  const before = `const res = 1 + 2;`
-
+test('sub', t => {
+  const before = `const res = 2 - 1;`
+  
   const { code } = transform(before, {
     plugins: [calcPlugin]
-  });
-  t.deepEqual(code, `const res = 3;`);
+  })
+  t.deepEqual(code, `const res = 1;`)
 
-  console.log(chalk.green(`Add: ${before} => ${code}`))
-});
+  console.log(chalk.green(`Sub: ${before} => ${code}`))
+})

@@ -7,6 +7,12 @@ function calcExpression(left, operator, right) {
     case '+':
       res = left + right
       break;
+    case '-':
+      res = left - right
+      break;
+    case '*':
+      res = left * right
+      break;
     default:
       break;
   }
